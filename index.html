@@ -1,17 +1,29 @@
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
+    <title>Escrevendo JavaScipt</title>
+       <script type = "text/javascript">
+           document.writeln("Bem Vindo ao Clube do Livro");
+
+           function myFunction() {
+            alert("Faça seu Cadastro!");
+           }
+       </script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Login para Clube do Livro</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
-  <body>
+  <body onload="alert('Bem Vindos ao Clube do Livro!')";> ...
+  
+  <button onclick="myFunction()">Clique aqui</button>
+  </body>
+</html>
     <header class="teste">
     <p>Login - Clube do Livro</p>
     <img id="imagem" src="img/livro.jpg"></img>
     </header>
-    <main>
+    <main class="titulo">
       <form action="dashboard.html" method="post">
         <label for="username">Usuário:</label><br />
         <input type="text" id="username" name="username" /><br />
