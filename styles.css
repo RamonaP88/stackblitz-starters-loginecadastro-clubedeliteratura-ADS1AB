@@ -1,103 +1,52 @@
 * {
   box-sizing: border-box;
-}
-
-body {
-  margin: 5em;
+  }
+  
+  body {
+  margin: 6rem;
+  font-family: system-ui, sans-serif;
+  color: darkgreen;
   background-color: black;
-
-  align-items:center;
-  color:olivedrab;
+  }
+  
+  main {
+  margin-top: 100px; /* Adiciona um espaço de margem superior para compensar a altura do cabeçalho e da navegação */
+  padding: 10px; /* Adiciona preenchimento interno ao conteúdo principal */
+  }
+  
+  header {
+  position: fixed; /* Mantém o cabeçalho fixo na parte superior da janela de visualização */
+  top: 0; /* Alinha o cabeçalho no topo da janela de visualização */
+  width: 100%; /* Define a largura do cabeçalho para ocupar toda a largura da janela de visualização */
+  height: 149px;
+  color: darkgreen;
+  padding: 10px;
+  z-index: 400; /* Garante que a navegação fique acima de outros elementos, exceto o cabeçalho */
+  }
+  
+  .nav-login {
+  background-color: rgb(128, 128, 128);
+  padding: 10px;
+  margin: 0px;
   font-weight: bold;
-  font-size: 1.7rem;
-}
-
-nav {
-  display: flex;
-  flex-wrap: wrap;
-  align-items:baseline;
-  justify-content:baseline;
-  padding: 0.5rem;
-  gap: 0.5rem;
-  border-bottom: solid 1px #aaa;
-  background-color: #eee;
-}
-
-nav a {
-  display: inline-block;
-  min-width: 2.5rem;
-  padding: 0.5rem;
-  border-radius: 0.2rem;
-  border: solid 1px #aaa;
-  text-align: center;
-  text-decoration: none;
-  color: #555;
-}
-
-nav a[aria-current='page'] {
-  color: #000;
-  background-color: #d4d4d4;
-}
-
-main {
-  padding: 1rem;
-}
-
-
-
-.rodape {
-  font-size: 0.5em;
+  }
+  
+  .nav-login > ul > li > a{
   color: white;
-}
-
+  }
+  
+  #nav-cadastro {
+  background-color: rgba(128, 128, 128, 0.795);
+  }
 img {
-  width: 80px;
+  width: 90px;
 }
 
-.teste {
-  align-items:start; 
-  color:darkgreen;
-  font-weight: bold;
-  font-size: 1.3rem;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
 
 #imagem {
-position: absolute;
-left: 20px;
-top: 90px;
+position:relative;
+left: 100px;
+top: 100px;
 
-}
-
-.titulo {
-  font-size: 1rem;
-  margin: 0em;
-  font-family: 'Courier New', Courier, monospace;
-  color: darkolivegreen;
-  background-color: black;
-}
-
-.textoa {
-  
-  color:darkgreen;
-  font-weight: bold;
-  font-size: 0.7rem;
-  margin: 0em;
-  font-family:Verdana, Geneva, Tahoma, sans-serif;
-  border-radius: 0rem;
-}
-
-.cabeçalho{
-  color:olivedrab;
-  font-weight: bold;
-  font-size: 1.8rem;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-.corpo{
-  color:olivedrab;
-  font-weight: bold;
-  font-size: 1.5rem;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 

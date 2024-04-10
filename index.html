@@ -1,85 +1,48 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head class="cabeçalho">
-    <title>Escrevendo JavaScipt</title>
-       <script type = "text/javascript">
-           document.writeln("Bem Vindo ao Clube do Livro!")
-           function myFunction() {
-            alert("Faça seu Cadastro!");
-           }
-          
-      
-      </script>
-          
-    
-       <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Login para Clube do Livro</title>
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body onload="alert('Bem Vindos ao Clube do Livro!')";>
-    <p>O que é o Clube do Livro?</p>
-    <op>É um grupo de pessoas que se reúnem na Biblioteca Nacional, para discutir, avaliar e compartilhar livros e ideias com os demais membros.</op>
-    <br>
-  <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    
-  </head>
-  
-  <body class="corpo">
-    
-  </body>
-  </html>
-  
-  <button onclick="myFunction()">Clique aqui</button>
-  <br>
-  </body>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="styles.css">
+<title>Amantes por Livros</title>
+<script type="module" src="script.js"></script>
+</head>
+<body> 
+<header>
+<h1>Bem-vindo ao Clube do Livro!</h1>
+</header>
 
-</html>
-<br>
-    <header class="teste">
-    <p>Login - Clube do Livro</p>
-    <img id="imagem" src="img/livro.jpg"></img>
-    </header>
-    <main class="titulo">
-      <form action="dashboard.html" method="post">
-        <label for="username">Usuário:</label><br />
-        <input type="text" id="username" name="username" /><br />
-        <label for="password">Senha:</label><br />
-        <input type="password" id="password" name="password" /><br /><br />
-        <input type="submit" value="Login" />
-      </form>
-      <br>
-      <form>
-        <header class="textoa">
-      <h1>Cadastro</h1>
-    </header>
-      <br>
-      <form action="cadastro_sucesso.html" method="post">
-        <label for="name">Nome:</label><br>
-        <input type="text" id="name" name="name" required><br>
-        <label for="last_name">Sobrenome:</label><br>
-        <input type="text" id="last_name" name="last_name" required><br>
-        <label for="email">Email:</label><br>
-        <input type="email" id="email" name="email" required><br>
-        <label for="phone_number">Telefone:</label><br>
-        <input type="tel" id="phone_number" name="phone_number" required><br>
-        <label for="address">Endereço:</label><br>
-        <input type="text" id="address" name="address" required><br>
-        <label for="date">Data de Inscrição:</label><br>
-        <input type="date" id="date" name="date" required><br>
-        <label for="password">Senha:</label><br>
-        <input type="password" id="password" name="password" required><br>
-        <label for="confirm_password">Confirme a senha:</label><br>
-        <input type="password" id="confirm_password" name="confirm_password" required><br><br>
-        <input type="submit" value="Cadastrar">
-    </form>
-    </main>
-    <footer class="rodape">
-      <p>&copy; 2024 Clube do Livro. Todos os direitos reservados.</p>
-    </footer>
-  </body>
+<nav>
+  <ul>
+    <li><a href="login.html" class="button">Login</a></li>
+    <li><a href="register.html" class="button">Cadastro</a></li>
+  </ul>
+</nav>
+<main>
+  <img src="img/livro.jpg" width="70">
+<section id="about">
+<h2>Sobre nós</h2>
+<p>O Clube do Livro, É um grupo de pessoas que se reúnem na Biblioteca Nacional, para discutir, avaliar e compartilhar livros e ideias com os demais membros.</p>
+</section>
+<section id="book">
+  <h2>Livros</h2>
+  <p>A diversidade de livros é um tesouro inestimável que enriquece nossas vidas de maneiras infinitas. Desde clássicos imortais até obras contemporâneas, cada livro oferece uma janela única para diferentes culturas, épocas e experiências humanas. Dentro das páginas de um livro, podemos viajar para terras distantes.</p>
+    <p>A variedade de gêneros literários amplia ainda mais nosso horizonte de leitura. Da fantasia à ficção científica, do romance à não ficção, da poesia à história, cada gênero oferece uma experiência única de leitura, atendendo a uma ampla gama de interesses e preferências. Além disso, a diversidade de temas abordados nos livros nos desafia a pensar criticamente, a questionar nossas próprias crenças e a desenvolver empatia por pessoas cujas experiências podem ser diferentes das nossas.</p>
+    <p>Os livros também desempenham um papel vital na representação e na inclusão. A diversidade de autores e personagens nos permite ver o mundo através de diferentes perspectivas.</p>
+</section>
+<section id="events">
+  <h2>Eventos</h2>
+  <p>Os eventos organizados pelo Clube de Leitura são verdadeiras celebrações da diversidade literária, proporcionando aos membros oportunidades únicas de interação e aprendizado. Nosso clube se reúne na Biblioteca Nacional, criando um ambiente propício para a troca de ideias e experiências entre os participantes.</p>
+    <p>Além das reuniões regulares de discussão de livros, realizamos alocações de livros, onde os participantes podem adquirir ou emprestar exemplares de obras discutidas ou recomendadas pelo clube, promovendo assim o acesso à leitura e a diversidade de títulos.</p>
+    <p>Em suma, os eventos do Clube do Livro não apenas ampliam nossa compreensão e apreciação da diversidade literária, mas também nos proporcionam momentos de conexão e camaradagem entre os membros do clube. Junte-se a nós em nossos próximos eventos e descubra o poder transformador da leitura compartilhada e da comunidade literária.</p> 
+</section>
+<section id="gallery">
+  <h2>Resenhas</h2>
+  <p>Este espaço, é específico para os membros colocarem suas resenhas.</p>
+    
+   </main>
+<footer>
+<p>&copy; 2024 Clube do Livro. Todos os direitos reservados.</p>
+</footer>
+</body>
 </html>
