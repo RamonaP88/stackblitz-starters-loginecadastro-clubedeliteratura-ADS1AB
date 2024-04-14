@@ -3,14 +3,14 @@
   }
   
   body {
-  margin: 6rem;
+  margin: 2em;
   font-family: system-ui, sans-serif;
-  color: darkgreen;
-  background-color: black;
+  color: black;
+  background-color: white;
   }
   
   main {
-  margin-top: 100px; /* Adiciona um espaço de margem superior para compensar a altura do cabeçalho e da navegação */
+  margin-top: 250px; /* Adiciona um espaço de margem superior para compensar a altura do cabeçalho e da navegação */
   padding: 10px; /* Adiciona preenchimento interno ao conteúdo principal */
   }
   
@@ -19,9 +19,19 @@
   top: 0; /* Alinha o cabeçalho no topo da janela de visualização */
   width: 100%; /* Define a largura do cabeçalho para ocupar toda a largura da janela de visualização */
   height: 149px;
-  color: darkgreen;
+  background-color: rgba(4, 111, 128, 0.699);
+  color: black;
   padding: 10px;
-  z-index: 400; /* Garante que a navegação fique acima de outros elementos, exceto o cabeçalho */
+  z-index: 1000; /* Garante que a navegação fique acima de outros elementos, exceto o cabeçalho */
+  }
+
+  .sessoes {
+    
+    margin-top: 12em; 
+    margin-left: 5em;
+    background-color: white;
+    color: black;
+    
   }
   
   .nav-login {
@@ -38,15 +48,3 @@
   #nav-cadastro {
   background-color: rgba(128, 128, 128, 0.795);
   }
-img {
-  width: 90px;
-}
-
-
-#imagem {
-position:relative;
-left: 100px;
-top: 100px;
-
-}
-
